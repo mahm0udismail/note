@@ -1,0 +1,409 @@
+body{
+    
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.imgslide
+{
+    margin: auto;
+    background-size: cover;
+}
+.item img{
+    width: 100%;
+}
+
+/* Bootstrap ACtions*/
+
+.navbar-inverse .navbar-brand{
+    color: #969bad;
+    font-size: 30px;
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover ,.navbar-inverse .navbar-nav > li > a:hover ,  .dropdown-menu > li > a:hover {
+    color: #969bad;
+    font-size: 20px;
+}
+
+.navbar-inverse
+{
+    margin-bottom: 0;
+}
+
+.carousel-caption{
+    background:rgba(9,9,9,0.4);
+    background-attachment: fixed;
+    width: 100%;
+    margin: auto;
+    bottom: 0px;
+    padding-top: 100%;
+    right: 0;
+    left: 0;
+}
+.carousel-caption h1{
+ 
+}
+.carousel-caption p{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 300px;
+    
+}
+.M-Magdi{
+    font-size: 36px;
+     background:radial-gradient(#969bad, transparent);
+    padding: 2px;
+}
+/* start slider show*/
+.carousel-inner > .item > img{
+    height: 0;
+    height: 700px;
+    width: 1500px;
+}
+/* End slider show*/
+
+
+/*starrt fetutres*/
+
+.features{
+    background-image: url("../photo/background4.jpg");
+    min-height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #b3b3b3;
+   
+}
+.features .object{
+    background: rgb(23 22 22 / 70%);
+    min-height: 400px;
+}
+.size-font-icon
+{
+    font-size: 40px;
+}
+/*end fetutres*/
+
+.carousel-indicators .active{
+ background-color: #969bad;
+
+}
+
+/* start testimoials */
+.testimoials h1
+{
+    margin-bottom: 15px;
+}
+
+.testimoials p {
+    
+    line-height: 2em;
+}
+.testimoials span{
+    font-size: 30px;
+    font-weight: bold;
+    color: #969bad;
+}
+.testimoials .carousel-inner{
+    min-height: 150px;
+}
+.testimoials .carousel-indicators{
+    position: static;
+    width:100%; 
+    margin-left: auto;
+
+}
+.testimoials .carousel-indicators li
+{
+    border: 1px solid #5a5353;
+    width: 80px;
+    height: 80px;
+    text-indent:0;        
+    font-weight: bold;
+    font-size: 50px;
+    opacity: 0.5;
+    border-radius: 50%;
+    
+}
+
+.testimoials .carousel-indicators .active{
+ background-color: #969bad;
+    opacity: 1;
+    border: 1px solid #FFF;
+
+}
+/* End testimoials */
+
+/* Start price table */
+.price_table{
+    
+    background-image:url("../photo/background5.jpg");
+    min-height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+    
+}
+.price_table .object{
+    background: rgb(23 20 20 / 70%);
+    min-height: 400px;
+    padding-bottom: 17px;
+}
+.price_table h1{
+    padding-bottom: 20px;
+    color: #dcd9d9;
+    
+}
+
+.price_table .price_box{
+    background: #FFF;
+    padding: 10px;
+    border: 1px solid #DDD;
+    margin-bottom: 15px;
+}
+
+.price_table .price_box p 
+{
+    font-size: 35px;
+    font-weight: bold;
+    color: #666;
+    border-radius: 50%;
+    background:#e4e4e4;
+    transition-duration: 0.7s;
+    
+}
+.price_table .price_box a{
+     transition-duration: 0.7s;
+}
+.price_table .price_box:hover p ,.price_table .price_box:hover a
+{
+    transform: scale(1.1,1.1)rotate(360deg);
+}
+
+.price_table .price_box ul{
+    line-height: 250%;
+    font-size: 20px;
+}
+
+/* End price table */
+
+
+
+/* Start Subscribe */
+
+.subscribe{
+    background-image: url("../photo/background6.jpg");
+    
+}
+.subscribe h1{
+    letter-spacing: 2px;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.subscribe p{
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+.subscribe .container{
+    padding-top:10px;
+        padding-bottom:10px;
+}
+.subscribe form label{
+    margin-right: 20px;
+    float: left;
+    font-size: 35px;
+    line-height: 200%;
+    
+}
+.subscribe form input{
+margin-bottom: 30px;
+    padding: 30px;
+}
+
+/* End Subscribe */
+
+
+/* Start Stats */
+
+.stats{
+    
+    background-image:url(../photo/background2.jpg);
+    background-attachment: fixed;
+    min-height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #9A9A9A;
+    margin-top: -18px;
+
+}
+.stats .object{
+    background: rgba(2,2,2,0.7);
+    min-height: 300px;
+}
+.stats .object h1{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size:60px;
+}
+.stats .object p{
+    font-size: 60px;
+    font-weight: bold;
+}
+.stats .object span{
+    font-weight: bold;
+    font-size:18px;
+}
+.stats .object .edit{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.stats .object .edit:hover i ,.stats .object .edit:hover p , .stats .object .edit:hover span  {
+    color:#FFF;
+}
+/* End Stats */
+
+
+/* Start Skills */
+.skills
+{
+    padding-bottom: 40px;
+}
+.skills h1 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.skills h2{
+    margin-top: -8px;
+}
+.skills .progress .progress-bar
+{
+    text-align: left;
+    text-indent: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+/* End Skills */
+
+
+/* Start Contact Us */
+.contact_us{
+    background-image: url(../photo/background3.jpg);
+    min-height: 400px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: #9A9A9A;
+ 
+    
+}
+.contact_us .field{
+    background: rgba(9,9,9,0.8);
+    min-height: 400px;
+    padding-bottom: 30px;
+}
+.contact_us .field  i{
+ width: 100%;
+    padding-top: 40px;
+}
+.contact_us .field p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.contact_us .field input[type="text"], .contact_us .field textarea{
+    text-align: center;
+    background: rgba(2,2,2,0.5);
+    border: 0;
+    color: #FFF;
+   
+   
+}
+
+.contact_us .field textarea{
+    height: 108px;
+     line-height: 70px;
+}
+
+
+
+/* End Contact Us */
+
+/* start Our Clients */
+
+.our-clients {
+   background-image: url("../photo/background7.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+     height: 300px;
+    color: #f1f1f1;
+
+}
+.our-clients .object{
+    background: rgb(134 126 126 / 50%);
+    height: 300px;
+}
+.our-clients img{
+    
+    width: 150px;
+    height: 200px;
+    opacity: 0.8;
+ transition-duration: 0.5s;
+    margin-right: 20px;
+    
+}
+.our-clients img:hover{
+    opacity: 1;
+    
+}
+
+
+/* End  Our Clients  */
+
+
+/* Start Footer */
+
+.footer{
+    background: #000;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    color:#9A9A9A; 
+}
+.footer h3{
+    color: #dfdff3;
+}
+.footer .links
+{
+    float :left;
+    width: 33.3333%;
+    margin-top: 15px;
+}
+.footer i{
+    margin-top: 20px;
+    font-size: 35px;
+    margin-right: 10px;
+}
+.footer img{
+    width: 64px;
+    height: 64px;
+}
+.footer .img_work {
+    width: 25%
+}
+.footer .img_work img{
+    width: 110px;
+    height: 110px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+
+}
+.footer .Copyright{
+    background: #111;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+.footer .Copyright span
+{
+    color: #dfdff3;
+}
+/* End  Footer  */
